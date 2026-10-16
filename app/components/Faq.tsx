@@ -5,9 +5,9 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "What is DataSort?",
+    question: "What is Omron?",
     answer:
-      "DataSort is a work portal for freelancers. It provides a platform where freelancers can undertake data-processing tasks related to resumes and organize information into structured formats.",
+      "Omron is a work portal for freelancers. It provides a platform where freelancers can undertake data-processing tasks related to resumes and organize information into structured formats.",
   },
   {
     question: "What exactly is the work?",
@@ -17,18 +17,18 @@ const faqs = [
   {
     question: "How many resumes do I need to process in a month? Is there any target?",
     answer:
-      "According to the stated requirements, the target is 300 to 700 resumes within a 7-day period. Confirm the current target and applicable work terms with DataSort before starting.",
+      "According to the stated requirements, the target is 300 to 700 resumes within a 7-day period. Confirm the current target and applicable work terms with Omron before starting.",
   },
   {
     question:
       "How will I be paid? What is the payment mode? Will there be any tax deduction?",
     answer:
-      "The stated payment schedule is the 15th and 30th of each month, with payment processed in the next applicable cycle after work completion. Payments are described as online transfers to registered bank accounts. The original information mentions a 5% TDS deduction for FY 2023–2024; verify the current applicable tax deduction and payment slabs directly with DataSort.",
+      "The stated payment schedule is the 15th and 30th of each month, with payment processed in the next applicable cycle after work completion. Payments are described as online transfers to registered bank accounts. The original information mentions a 5% TDS deduction for FY 2023–2024; verify the current applicable tax deduction and payment slabs directly with Omron.",
   },
   {
     question: "Whom should I contact if I face a problem during work?",
     answer:
-      "The stated support hours are 10 AM to 6 PM, Monday to Friday. You can raise a query through the portal or contact team@datasort.in. The original information states that portal queries are resolved within a maximum of four working hours.",
+      "The stated support hours are 10 AM to 6 PM, Monday to Friday. You can raise a query through the portal or contact team@omron.in. The original information states that portal queries are resolved within a maximum of four working hours.",
   },
   {
     question:
