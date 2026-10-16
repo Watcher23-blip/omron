@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Navbar from "../components/Navbar";
+
 import Footer from "../components/Footer";
 
 const sections = [
@@ -81,8 +81,6 @@ const sections = [
 export default function PrivacyPolicyPage() {
     return (
         <main className="min-h-screen bg-white text-gray-600">
-
-
             {/* Hero Section */}
             <section className="relative overflow-hidden border-b border-blue-100 bg-gradient-to-b from-blue-50 via-white to-white">
                 <div className="pointer-events-none absolute -right-20 -top-24 h-72 w-72 rounded-full bg-blue-100/60 blur-3xl" />
@@ -303,7 +301,6 @@ export default function PrivacyPolicyPage() {
                     </aside>
 
                     {/* Main Content */}
-                    {/* Main Content */}
                     <div className="min-w-0">
                         <div className="mb-8 border-b border-gray-100 pb-7">
                             <p className="text-sm leading-7 text-gray-600 sm:text-base">
@@ -333,7 +330,7 @@ export default function PrivacyPolicyPage() {
                                     <div className="space-y-5 pl-0 sm:pl-11">
                                         {section.content.map((item, itemIndex) => (
                                             <div key={`${section.title}-${itemIndex}`}>
-                                                {item.heading && (
+                                                {"heading" in item && (
                                                     <h3 className="mb-2 text-base font-medium text-gray-800">
                                                         {item.heading}
                                                     </h3>
@@ -423,7 +420,7 @@ export default function PrivacyPolicyPage() {
                                 href="/terms-and-conditions"
                                 className="inline-flex items-center gap-2 text-sm font-medium text-blue-600 transition-colors hover:text-blue-700"
                             >
-                                Terms & Conditions
+                                Terms &amp; Conditions
                                 <svg
                                     className="h-4 w-4"
                                     fill="none"

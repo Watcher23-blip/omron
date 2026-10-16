@@ -84,7 +84,7 @@ export default function Home() {
 
                             <div className="mt-5 space-y-4 text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
                                 <p>
-                                    DataSort provides a wide range of advertising and marketing
+                                    Omron provides a wide range of advertising and marketing
                                     solutions to companies primarily engaged in IT services and
                                     other work related to data processing, data analysis, data
                                     segregation, estimation, and other such enablement services.
@@ -94,7 +94,7 @@ export default function Home() {
                                     We have been working with various job portals that require
                                     the assimilation and segregation of bulk data into specific
                                     formats. To facilitate marketing for these clients, we
-                                    created DataSort. This platform allows individuals to
+                                    created Omron. This platform allows individuals to
                                     register and earn payouts by completing data segregation and
                                     data processing tasks. We are constantly looking for
                                     individuals willing to work part-time or as freelancers.
@@ -107,7 +107,7 @@ export default function Home() {
                             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl">
                                 <Image
                                     src="/about.png"
-                                    alt="DataSort team working on data processing and marketing"
+                                    alt="Omron team working on data processing and marketing"
                                     fill
                                     sizes="(max-width: 1023px) 90vw, 30vw"
                                     className="object-contain"
